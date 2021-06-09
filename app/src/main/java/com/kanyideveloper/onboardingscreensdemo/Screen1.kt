@@ -34,7 +34,7 @@ class Screen1 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_screen2, container, false)
+        return inflater.inflate(R.layout.fragment_screen1, container, false)
     }
 
     companion object {

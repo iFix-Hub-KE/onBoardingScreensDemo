@@ -7,6 +7,7 @@
     tools:context=".MyBeerFragment">
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/myFeedRecyclerView"
+        android:layout_margin="8dp"
         android:layout_width="0dp"
         android:layout_height="0dp"
         tools:listitem="@layout/my_beer_row"
@@ -17,4 +18,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

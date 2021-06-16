@@ -32,7 +32,7 @@ class TabFragment : Fragment() {
 
     private fun setupTabs(){
         val adapter = TabsAdapter(activity?.supportFragmentManager!!)
-        adapter.addFragments(Screen1(),"Test1")
+        adapter.addFragments(MyBeerFragment(),"My Beer")
         adapter.addFragments(Screen2(),"Test2")
         adapter.addFragments(Screen3(),"Test3")
 
